@@ -1,7 +1,9 @@
 body {
-	background: url('inday.jpg') no-repeat;
+	background: url('images/bob.jpg') no-repeat;
 	background-size: cover;
-	 background-attachment:whitefont-family: Bold;
+	 background-attachment: fixed;
+    background-position: center;
+	font-family: Bold;
 	color: white;	
 }
 ul {
@@ -28,7 +30,7 @@ ul li a {
 }
 
 ul li a:hover {
-	background-color: green;
+	background-color: brown;
 }
 ul li ul li {
 	display: none;
@@ -101,7 +103,7 @@ ul li:hover ul li {
   padding: 30px 35px 40px;
   box-sizing: border-box;
   border-radius: 5px;
-  border-color: green;
+  border-color: red;
 }
 
 #click:checked~.content
@@ -119,6 +121,4 @@ ul li:hover ul li {
   opacity:1;
   visibility:visible;
 }
-{
-  <span style="background-color: brown;">
-}
+
